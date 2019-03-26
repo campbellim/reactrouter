@@ -19,7 +19,7 @@
   "homepage": "https://github.com/campbellim/reactrouter#readme",
   "dependencies": {
     "axios": "^0.18.0",
-    "mongoose": "^5.4.20",
+    "mongoose": "^5.2.8",
     "react": "^16.8.5",
     "react-dom": "^16.8.5"
   }

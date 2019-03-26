@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import dbAPI from "../api/dbAPI";
+import db from "../../models/book";
 import { List, ListItemToo } from "../component/list";
 
 class Favorites extends Component {
@@ -12,13 +12,13 @@ class Favorites extends Component {
     };
 
     loadBooks = () => {
-        dbAPI.getBooks().then(res => {
+        db.getBooks().then(res => {
             this.setState({ favBooks: res.data });
         });
     };
 
     deleteBook = bookID => {
-        dbAPI.deleteBook(bookID).then(res => {
+        db.deleteBook(bookID).then(res => {
             this.loadBooks();
         });
     };
