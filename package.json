@@ -1,0 +1,26 @@
+{
+  "name": "reactrouter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/campbellim/reactrouter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/campbellim/reactrouter/issues"
+  },
+  "homepage": "https://github.com/campbellim/reactrouter#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "mongoose": "^5.4.20",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5"
+  }
+}
